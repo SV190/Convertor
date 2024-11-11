@@ -1,0 +1,73 @@
+{
+  "Volume": {
+    "base_unit": "liters",
+    "units": [
+      { "name": "liters", "abbreviation": "L", "factor": 1 },
+      { "name": "milliliters", "abbreviation": "mL", "factor": 0.001 },
+      { "name": "cubic meters", "abbreviation": "m³", "factor": 1000 },
+      { "name": "cubic centimeters", "abbreviation": "cm³", "factor": 0.001 },
+      { "name": "gallons", "abbreviation": "gal", "factor": 3.78541 },
+      { "name": "quarts", "abbreviation": "qt", "factor": 0.946353 },
+      { "name": "pints", "abbreviation": "pt", "factor": 0.473176 },
+      { "name": "cups", "abbreviation": "cup", "factor": 0.24 },
+      { "name": "fluid ounces", "abbreviation": "fl oz", "factor": 0.0295735 }
+    ]
+  },
+  "Area": {
+    "base_unit": "square meters",
+    "units": [
+      { "name": "square meters", "abbreviation": "m²", "factor": 1 },
+      { "name": "square centimeters", "abbreviation": "cm²", "factor": 0.0001 },
+      { "name": "square kilometers", "abbreviation": "km²", "factor": 1000000 },
+      { "name": "acres", "abbreviation": "ac", "factor": 4046.86 },
+      { "name": "hectares", "abbreviation": "ha", "factor": 10000 },
+      { "name": "square feet", "abbreviation": "ft²", "factor": 0.092903 },
+      { "name": "square inches", "abbreviation": "in²", "factor": 0.00064516 },
+      { "name": "square miles", "abbreviation": "mi²", "factor": 2589988.11 }
+    ]
+  },
+  "Temperature": {
+    "base_unit": "celsius",
+    "units": [
+      {
+        "name": "celsius",
+        "abbreviation": "°C",
+        "formula_to_base": "(x) => x"
+      },
+      {
+        "name": "fahrenheit",
+        "abbreviation": "°F",
+        "formula_to_base": "(x) => (x - 32) * 5/9"
+      },
+      {
+        "name": "kelvin",
+        "abbreviation": "K",
+        "formula_to_base": "(x) => x - 273.15"
+      }
+    ]
+  },
+  "Weight": {
+    "base_unit": "kilograms",
+    "units": [
+      { "name": "kilograms", "abbreviation": "kg", "factor": 1 },
+      { "name": "grams", "abbreviation": "g", "factor": 0.001 },
+      { "name": "milligrams", "abbreviation": "mg", "factor": 0.000001 },
+      { "name": "pounds", "abbreviation": "lb", "factor": 0.453592 },
+      { "name": "ounces", "abbreviation": "oz", "factor": 0.0283495 },
+      { "name": "stones", "abbreviation": "st", "factor": 6.35029 }
+    ]
+  },
+  "Length": {
+    "base_unit": "meters",
+    "units": [
+      { "name": "meters", "abbreviation": "m", "factor": 1 },
+      { "name": "centimeters", "abbreviation": "cm", "factor": 0.01 },
+      { "name": "millimeters", "abbreviation": "mm", "factor": 0.001 },
+      { "name": "kilometers", "abbreviation": "km", "factor": 1000 },
+      { "name": "inches", "abbreviation": "in", "factor": 0.0254 },
+      { "name": "feet", "abbreviation": "ft", "factor": 0.3048 },
+      { "name": "yards", "abbreviation": "yd", "factor": 0.9144 },
+      { "name": "miles", "abbreviation": "mi", "factor": 1609.34 }
+    ]
+  }
+}
