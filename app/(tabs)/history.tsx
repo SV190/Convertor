@@ -227,7 +227,7 @@ export default function HistoryScreen() {
         onPress={clearHistory}
       >
         <Text style={[styles.clearButtonText, { color: currentColor.text }]}>
-          Очистить историю
+          Очистить историюl
         </Text>
       </TouchableOpacity>
     </GestureHandlerRootView>
